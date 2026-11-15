@@ -10,7 +10,7 @@ terraform {
 
   backend "s3" {
     bucket       = "omkar-tf-state-798283318175-ap-southeast-2"
-    key          = "terraform-s3/dev/terraform.tfstate"
+    key          = "glue-project/dev/terraform.tfstate"
     region       = "ap-southeast-2"
     use_lockfile = true
   }
